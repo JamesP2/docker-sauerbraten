@@ -11,3 +11,6 @@ bash: image-base
 
 image: image-base
 	docker build -f Dockerfile -t $(image-name) .
+
+run-latest:
+	docker run --name $(image-name) --restart unless-stopped -p 28784:28784/udp -p 28785:28785/udp -p 28786:28786/udp -d $(image-name)

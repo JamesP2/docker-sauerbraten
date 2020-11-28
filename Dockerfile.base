@@ -19,4 +19,4 @@ WORKDIR /opt/sauerbraten
 
 ADD server-init.cfg /opt/sauerbraten
 
-EXPOSE 28785/udp 28785/tcp 28786/udp 28786/tcp
+EXPOSE 28784/udp 28785/udp 28786/udp
