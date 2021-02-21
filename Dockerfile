@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
   libx11-6 \
   wget
 
-RUN wget -O sauerbraten.tar.bz2 https://sourceforge.net/projects/sauerbraten/files/sauerbraten/2020_11_29/sauerbraten_2020_11_30_linux.tar.bz2/download
+RUN wget -O sauerbraten.tar.bz2 https://sourceforge.net/projects/sauerbraten/files/sauerbraten/2020_11_29/sauerbraten_2020_12_27_linux.tar.bz2/download
 RUN tar xjf sauerbraten.tar.bz2
 
 WORKDIR /opt/sauerbraten
